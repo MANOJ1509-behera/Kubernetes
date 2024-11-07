@@ -17,4 +17,12 @@
 - these lease object send the heartbeat to the control plane to help if any node is not health it create pod in another healthy node.
 ## default namespace
 - bydefault resource are creating in the default namespace if we are not creat any namespace.
-- 
+
+### There are two ways of creating a namespaces
+ i) using declerative way
+-------------------------------
+kubectl create namespaces (namespaces name)
+
+ii) using imperative way
+-------------------------
+
