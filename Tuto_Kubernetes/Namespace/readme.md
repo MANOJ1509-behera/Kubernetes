@@ -1,5 +1,7 @@
 -->  kubectl create namespace (namespace name)  (to create namespace using kubectl way)
 
+--> kubectl apply -f filename.yaml (after creating .yaml file and .yml file we can apply it is the declerative way of creating namespace)
+
 --> kubectl get namespaces (to get all the namespaces)
 
 --> kubectl get all (to get all the resources present in the default namespaces)
