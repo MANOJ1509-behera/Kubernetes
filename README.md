@@ -1,6 +1,7 @@
 # Kubernetes
+
+### 50 most important Kubernetes Commands
 ```
-50 most important Kubernetes Commands
 Basic Operations
 ✔️ `kubectl get pods` - List all pods in the current namespace
 ✔️ `kubectl get pods -A` - List pods across all namespaces
