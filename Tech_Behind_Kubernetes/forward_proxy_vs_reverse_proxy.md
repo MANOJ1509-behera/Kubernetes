@@ -16,4 +16,5 @@ A server that sits in front of 1 or more Web Servers. It receives all requests f
 The clients can only see the public IP of the proxy. This way, the actual web servers can “hide” behind the reverse proxy, enjoying better protection and anonymity.
 Reverse proxy can also control what traffic to forward, dropping any malicious requests upfront.
 ```
-!(https://media.licdn.com/dms/image/v2/D4E22AQEgNpVCzJ2-DQ/feedshare-shrink_800/feedshare-shrink_800/0/1730184783796?e=1735776000&v=beta&t=GmbV3SeS_oF-M23vPwvSLisXphXLxHDEcof7GlNrr0A)
+![reverse](https://github.com/user-attachments/assets/dea081de-21ca-4cce-945c-5e2bd9cc4d67)
+
