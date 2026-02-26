@@ -1,0 +1,20 @@
+# kubectl apply --server-side -f https://github.com/kyverno/kyverno/releases/latest/download/install.yaml
+
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: disallow-latest-tag
+spec:
+  validationFailureAction: Enforce
+  rules:
+  - name: require-image-tag
+    match:
+      resources:
+        kinds:
+        - Pod
+    validate:
+      message: "Image tag 'latest' is not allowed"
+      pattern:
+        spec:
+          containers:
+          - image: "!*:latest"
